@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Teh Kota Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-brand">PT TEH KOTA INDONESIA</div>
+        <nav class="site-nav" aria-label="Main">
+            <ul class="nav-list">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#katalog-teh">Katalog Teh</a></li>
+                <li><a href="#review-produk">Review</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slider" class="section-slider">
+        <div class="slider-copy">
+            <h1>Teh Kota Indonesia</h1>
+            <p>Lebih nikmat bikin semangat</p>
+        </div>
+        <div class="image-slider">
+            <div class="slide active">
+                <img src="slider4.jpeg" alt="Teh Kota Signature Blend">
+            </div>
+            <div class="slide">
+                <img src="slider2.jpeg" alt="Teh Kota Garden Fresh">
+            </div>
+            <div class="slide">
+                <img src="slider3.jpeg" alt="Teh Kota Heritage Roast">
+            </div>
+            <div class="slide">
+                <img src="slider5.jpeg" alt="Teh Kota Citrus Bloom">
+            </div>
+
+            <div class="navigation">
+                <div class="slider-btn active"></div>
+                <div class="slider-btn"></div>
+                <div class="slider-btn"></div>
+                <div class="slider-btn"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review-section" aria-labelledby="review-produk">
+        <h2 id="review-produk">Review Produk</h2>
+        <div class="review-grid">
+            <article class="review-card reveal">
+                <img src="tea-series.jpeg" alt="Tea Series">
+                <h3>Tea Series</h3>
+                <p class="review-quote">Tea Series klasik dengan rasa teh bersih dan elegan.</p>
+            </article>
+            <article class="review-card reveal">
+                <img src="blend-series.jpeg" alt="Blend Series">
+                <h3>Blend Series</h3>
+                <p class="review-quote">Blend Series dengan karakter rasa yang lebih kuat dan bold.</p>
+            </article>
+            <article class="review-card reveal">
+                <img src="yogurt-series.jpeg" alt="Yogurt Series">
+                <h3>Yogurt Series</h3>
+                <p class="review-quote">Yogurt Series dengan perpaduan rasa creamy dan segar.</p>
+            </article>
+            <article class="review-card reveal">
+                <img src="coffe-series.jpeg" alt="Coffee Series">
+                <h3>Coffee Series</h3>
+                <p class="review-quote">Coffee Series dengan aroma panggang yang hangat dan rich.</p>
+            </article>
+            <article class="review-card reveal">
+                <img src="choco-series.jpeg" alt="Choco Series">
+                <h3>Choco Series</h3>
+                <p class="review-quote">Choco Series dengan rasa cokelat lembut yang manis.</p>
+            </article>
+            <article class="review-card reveal">
+                <img src="rasa-baru.jpeg" alt="Rasa Baru">
+                <h3>Rasa Baru</h3>
+                <p class="review-quote">Rasa Baru dengan varian terbaru yang manis dan menyegarkan.</p>
+            </article>
+            <article class="review-card reveal">
+                <img src="rekomendasi-menu-mood.jpeg" alt="Menu Mood">
+                <h3>Menu Mood</h3>
+                <p class="review-quote">Rekomendasi menu mood untuk suasana yang pas.</p>
+            </article>
+        </div>
+    </section>
+    <div class="review-modal" aria-hidden="true">
+        <div class="review-modal__backdrop" data-review-close></div>
+        <div class="review-modal__content" role="dialog" aria-modal="true" aria-label="Detail produk">
+            <button class="review-modal__close" type="button" aria-label="Tutup" data-review-close>×</button>
+            <img class="review-modal__image" src="" alt="">
+            <div class="review-modal__text">
+                <h3 class="review-modal__title"></h3>
+                <p class="review-modal__desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <section class="catalog-section" aria-labelledby="katalog-teh">
+        <h2 id="katalog-teh">Katalog Teh Unggulan</h2>
+        <p class="catalog-lead">Pilih varian terbaik untuk kebutuhan retail, hadiah, maupun layanan hospitality.</p>
+        <div class="catalog-grid">
+            <article class="catalog-card reveal featured">
+                <span class="badge"><span class="badge-icon" aria-hidden="true"></span>Best Seller</span>
+                <img src="tea-series.jpeg" alt="Tea Series">
+                <h3>Tea Series</h3>
+                <p>Tea Series klasik dengan rasa teh bersih dan elegan, cocok untuk konsumsi harian maupun jamuan.</p>
+                <ul class="catalog-points">
+                    <li>Profil rasa halus dan seimbang</li>
+                    <li>Aroma teh wangi yang ringan</li>
+                    <li>Aftertaste bersih dan tidak pahit</li>
+                </ul>
+            </article>
+            <article class="catalog-card reveal">
+                <span class="badge"><span class="badge-icon" aria-hidden="true"></span>Best Seller</span>
+                <img src="blend-series.jpeg" alt="Blend Series">
+                <h3>Blend Series</h3>
+                <p>Blend Series dengan karakter rasa yang lebih kuat dan bold.</p>
+            </article>
+            <article class="catalog-card reveal">
+                <span class="badge badge-new"><span class="badge-icon" aria-hidden="true"></span>New</span>
+                <img src="yogurt-series.jpeg" alt="Yogurt Series">
+                <h3>Yogurt Series</h3>
+                <p>Yogurt Series dengan perpaduan rasa creamy dan segar.</p>
+            </article>
+            <article class="catalog-card reveal">
+                <span class="badge badge-limited"><span class="badge-icon" aria-hidden="true"></span>Limited</span>
+                <img src="coffe-series.jpeg" alt="Coffee Series">
+                <h3>Coffee Series</h3>
+                <p>Coffee Series dengan aroma panggang yang hangat dan rich.</p>
+            </article>
+            <article class="catalog-card reveal">
+                <span class="badge"><span class="badge-icon" aria-hidden="true"></span>Best Seller</span>
+                <img src="choco-series.jpeg" alt="Choco Series">
+                <h3>Choco Series</h3>
+                <p>Choco Series dengan rasa cokelat lembut yang manis.</p>
+            </article>
+            <article class="catalog-card reveal">
+                <span class="badge badge-new"><span class="badge-icon" aria-hidden="true"></span>New</span>
+                <img src="rasa-baru.jpeg" alt="Rasa Baru">
+                <h3>Rasa Baru</h3>
+                <p>Rasa Baru dengan varian terbaru yang manis dan menyegarkan.</p>
+            </article>
+            <article class="catalog-card reveal">
+                <span class="badge badge-limited"><span class="badge-icon" aria-hidden="true"></span>Limited</span>
+                <img src="rekomendasi-menu-mood.jpeg" alt="Menu Mood">
+                <h3>Menu Mood</h3>
+                <p>Rekomendasi menu mood untuk suasana yang pas.</p>
+            </article>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

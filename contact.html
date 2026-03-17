@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak | PT Teh Kota Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-brand">PT TEH KOTA INDONESIA</div>
+        <nav class="site-nav" aria-label="Main">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#katalog-teh">Katalog Teh</a></li>
+                <li><a href="index.html#review-produk">Review</a></li>
+                <li><a href="contact.html" class="active">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-wrap">         
+        <h1 class="contact-title">Hubungi Teh Kota</h1>
+        <p class="contact-lead">
+            Punya pertanyaan, ingin kerja sama, atau tertarik menjadi reseller? Kirim pesan melalui form di bawah ini.
+        </p>
+
+        <form class="contact-form" action="#" method="post">
+            <div>
+                <label for="name">Nama Lengkap</label>
+                <input id="name" name="name" type="text" placeholder="Nama kamu" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="nama@email.com" required>
+            </div>
+            <div>
+                <label for="topic">Kritik dan Saran</label>
+                <input id="topic" name="topic" type="text" placeholder="Contoh: Kemitraan / Pemesanan" required>
+            </div>
+            <div>
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tulis pesan kamu" required></textarea>
+            </div>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <section class="contact-meta" aria-label="Contact details">
+            <div><strong>Email:</strong> tehkota@gmail.com</div>
+            <div class="contact-phone" data-whatsapp="6281779511986"><strong>Telepon:</strong> 0817-7951-1986</div>
+            <div><strong>Alamat:</strong> Jl. Ki Soreng, RT/RW. 01/03, Kel. Karangjati, Kec. Blora Kab. Blora, Blora, Jawa Tengah, Indonesia</div>
+        </section>
+
+        <section class="map-section" aria-label="Lokasi Teh Kota">
+            <h2 class="map-title">Lokasi Teh Kota</h2>
+            <p class="map-lead">Temukan kami melalui peta di bawah ini.</p>
+            <div class="map-embed">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.4099373010354!2d111.42674197736996!3d-6.960873875092577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7740f782fe422b%3A0x8d48fd12acfba0a3!2sJl.%20Ki%20Soreng%2C%20Karangjati%2C%20Kec.%20Blora%2C%20Kabupaten%20Blora%2C%20Jawa%20Tengah%2058219!5e0!3m2!1sid!2sid!4v1773766946259!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Peta lokasi Teh Kota"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
